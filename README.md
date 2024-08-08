@@ -1,3 +1,37 @@
+# SOLID principles
+ 
+The SOLID principles are a set of five design principles intended to make software designs more understandable, flexible, and maintainable. They were introduced by Robert C. Martin, also known as "Uncle Bob." Here's what each letter in SOLID stands for:
+
+1. **S - Single Responsibility Principle (SRP):**
+   - **Definition:** A class should have only one reason to change, meaning it should have only one job or responsibility.
+   - **Explanation:** Each class should focus on a single task or functionality. If a class has multiple responsibilities, it becomes harder to maintain and understand.
+
+2. **O - Open/Closed Principle (OCP):**
+   - **Definition:** Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
+   - **Explanation:** You should be able to extend a class's behavior without modifying the class itself. This can be achieved through inheritance and polymorphism.
+
+3. **L - Liskov Substitution Principle (LSP):**
+   - **Definition:** Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+   - **Explanation:** Subclasses should be able to substitute their parent class without causing unexpected behavior. This means the subclass should enhance the functionality, not break it.
+
+4. **I - Interface Segregation Principle (ISP):**
+   - **Definition:** Clients should not be forced to depend on interfaces they do not use.
+   - **Explanation:** A class should not be required to implement interfaces it does not use. Instead, create smaller, more specific interfaces so that classes only need to know about the methods that are of interest to them.
+
+5. **D - Dependency Inversion Principle (DIP):**
+   - **Definition:** High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
+   - **Explanation:** Depend on abstractions (interfaces or abstract classes) rather than concrete implementations. This makes the code more flexible and easier to modify or extend.
+
+### Summary of SOLID Principles:
+
+- **SRP:** One class, one responsibility.
+- **OCP:** Extend behavior without modifying existing code.
+- **LSP:** Subtypes must be substitutable for their base types.
+- **ISP:** Use specific interfaces rather than a single, general-purpose interface.
+- **DIP:** Depend on abstractions, not on concrete implementations.
+
+These principles help in creating code that is easier to maintain, test, and extend, leading to more robust and scalable software design.
+
 ## Best practices for selecting name of function, class and variable
 Choosing names for functions, classes, and variables is crucial for creating readable, maintainable, and understandable code. Here are some best practices that apply to most programming languages:
 
